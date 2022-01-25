@@ -514,7 +514,11 @@
 
   .bet__list {
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
+  }
+
+  .bet__item {
+    /* display: flex; */
   }
 
   .bet__item:not(:last-child) {
@@ -524,11 +528,13 @@
   .bet__heading {
     font-size: 48px;
     line-height: 42px;
+    /* text-align: center; */
   }
 
   .bet__discription {
     font-size: 14px;
     line-height: 24px;
+    /* text-align: center; */
   }
 
   .advantages__title {
