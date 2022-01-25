@@ -1,9 +1,18 @@
+@font-face {
+  font-family: 'Navigo';
+  src: local('Navigo Regular'), local('Navigo-Regular'),
+      url('../fonts/Navigo-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Navigo';
 }
 
 .container {
@@ -40,6 +49,7 @@
 .header__link {
   font-size: 20px;
   line-height: 26px;
+  color: #2B2D33;
 }
 
 .header__info {
@@ -66,6 +76,7 @@
   font-size: 60px;
   line-height: 70px;
   color: #fff;
+  font-weight: bold;
 }
 
 .hero__bet {
@@ -73,6 +84,7 @@
   font-size: 72px;
   line-height: 70px;
   color: #fff;
+  font-weight: bold;
 }
 
 .btn {
@@ -97,12 +109,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 
 .bet__heading {
   margin-bottom: 5px;
   font-size: 64px;
   line-height: 72px;
+  font-weight: bold;
   color: #2B2D33;
 }
 
@@ -514,11 +528,6 @@
 
   .bet__list {
     flex-direction: column;
-    /* text-align: center; */
-  }
-
-  .bet__item {
-    /* display: flex; */
   }
 
   .bet__item:not(:last-child) {
@@ -528,13 +537,11 @@
   .bet__heading {
     font-size: 48px;
     line-height: 42px;
-    /* text-align: center; */
   }
 
   .bet__discription {
     font-size: 14px;
     line-height: 24px;
-    /* text-align: center; */
   }
 
   .advantages__title {
