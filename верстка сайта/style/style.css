@@ -232,11 +232,12 @@
 
 .calc__item:not(:last-child) {
   padding-right: 60px;
-  border-right: 1px solid #E1E1E3;
+  /* border-right: 1px solid #E1E1E3; */
 }
 
 .calc__item:not(:first-child) {
   padding-left: 60px;
+  border-left: 1px solid #E1E1E3;
 }
 
 .calc__elem {
